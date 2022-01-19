@@ -7,3 +7,5 @@ To run my code:
 4. Download my code as a zip file from github and then run `cd shop-BE-main` in your terminal (make sure you're in the same folder as where you store your `shop-BE-main` folder and then `cd` into `studybud`)
 5. Run `python3 manage.py runserver 8001` and click on the link
 6. Play around with my application!
+
+Video of application: https://youtu.be/q46ZNqnk08Q
