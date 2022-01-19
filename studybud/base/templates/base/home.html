@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1>Inventory Service</h1>
+
+<div>
+    <a href="{% url 'create-room' %}">Add Item</a>
+    <hr>
+    <div>
+        {% for room in rooms %}
+            <div>
+                <a href="{% url 'update-room' room.id %}">Edit</a>
+                <a href="{% url 'delete-room' room.id%}">Delete</a>
+                <h5>{{room.name}}</h5>
+                <small>Count: </small>
+                <small>{{room.count}}</small>
+                <small><br>{{room.topic.name}}</small>
+                <small><br>Description: </small>
+                <small>{{room.description}}</small>
+                <hr>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+{% endblock content %}
