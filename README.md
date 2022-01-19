@@ -4,6 +4,6 @@ To run my code:
 1. Make sure you have `python3` installed (https://www.python.org/downloads/)
 2. Make sure you have `pip` installed
 3. Run `pip install django`
-4. Download my code as a zip file from github and shop-BE-main and then cd into studybud
+4. Download my code as a zip file from github and cd shop-BE-main and then cd into studybud
 5. Run `python3 manage.py run server 8001` and click on the link
 6. Play around with my application!
